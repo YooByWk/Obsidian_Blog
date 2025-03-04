@@ -9,6 +9,8 @@ Categoría:
 title: Obsidian 동기화 하기
 date: 2025-03-04T22:02:00
 ---
+
+# git을 이용한 Obsidian 동기화하기 
 ## git을 이용한 Obsidian 동기화하기 
 
 원래는 NAS에 올려서 개인 깃과 개인적으로 중요한 파일을 사용하려고 했지만
