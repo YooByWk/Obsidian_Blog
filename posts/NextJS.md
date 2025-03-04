@@ -86,15 +86,15 @@ getFromCacheOrFetch() 함수는 캐시 만료 여부를 확인한 후, 만료 �
 마크다운 파일 목록: GitHub API를 통해 지정된 경로의 마크다운 파일 목록을 불러오자
 
 파일 내용 추출: 불러온 파일 내용을 Base64 디코딩하여 텍스트로 변환한다.
-이미지 처리: Obsidian의 ![[image.png]] 구문을 감지해 GitHub의 raw URL로 변환하는 로직을 포함한다.
+이미지 처리: Obsidian의 `![[image.png]]` 구문을 감지해 GitHub의 raw URL로 변환하는 로직을 포함한다.
 
 ### Obsidian 마크다운 처리
 
-내부 링크 변환: [[link]] 구문을 [link](/posts/slug) 형식으로 변환하여 라우팅에 활용한다.
+내부 링크 변환: `[[link]]` 구문을` [link](/posts/slug)` 형식으로 변환하여 라우팅에 활용한다.
 
-콜아웃 박스 처리: [!(NOTE|INFO|TIP|WARNING|DANGER|CAUTION)] 등의 구문을 HTML 콜아웃 박스로 재구성한다.
+콜아웃 박스 처리: `[!(NOTE|INFO|TIP|WARNING|DANGER|CAUTION)]` 등의 구문을 HTML 콜아웃 박스로 재구성한다.
 
-코드 블록 처리: Markdown의 코드 블록을 HTML <pre><code> 태그로 감싸, 하이라이팅 처리 가능하도록 변환한다.
+코드 블록 처리: Markdown의 코드 블록을 HTML` <pre><code>` 태그로 감싸, 하이라이팅 처리 가능하도록 변환한다.
 
 ### 불러보기
 
