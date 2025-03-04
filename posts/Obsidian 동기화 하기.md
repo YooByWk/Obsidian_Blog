@@ -6,6 +6,8 @@ tags:
 Categoría:
   - "[[옵시디언]]"
   - "[[컬렉션 - Blog 포스팅 리스트]]"
+title: Obsidian 동기화 하기
+date: 2025-03-04T22:02:00
 ---
 ## git을 이용한 Obsidian 동기화하기 
 
