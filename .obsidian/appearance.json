@@ -1,7 +1,7 @@
 {
   "showRibbon": true,
   "cssTheme": "Spectrum",
-  "theme": "system",
+  "theme": "obsidian",
   "baseFontSize": 16,
   "nativeMenus": false,
   "baseFontSizeAction": true
